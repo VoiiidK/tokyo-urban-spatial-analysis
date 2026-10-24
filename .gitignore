@@ -179,3 +179,31 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and generated spatial data
+data/raw/
+data/processed/
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.parquet
+*.sqlite
+*.db
+
+# Download archives
+*.zip
+
+# Temporary outputs only
+outputs/tmp/
